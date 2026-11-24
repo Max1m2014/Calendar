@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Samsung One UI style palette for the "Month + events" widget -->
+<resources>
+    <color name="oneui_surface">#FCFCFC</color>
+    <color name="oneui_text">#111111</color>
+    <color name="oneui_text_secondary">#808080</color>
+    <color name="oneui_text_dim">#C2C2C2</color>
+    <color name="oneui_sunday">#F2453D</color>
+    <color name="oneui_sunday_dim">#F7B0AC</color>
+    <color name="oneui_saturday">#3E7BF6</color>
+    <color name="oneui_saturday_dim">#AFC6FA</color>
+    <color name="oneui_accent">#3E7BF6</color>
+    <color name="oneui_on_accent">#FFFFFF</color>
+    <color name="oneui_divider">#14000000</color>
+    <color name="oneui_button_bg">#EDEDED</color>
+</resources>

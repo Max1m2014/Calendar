@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_oneui">Calendar month + events (One UI)</string>
+    <string name="widget_oneui_description">Month grid with upcoming events, in Samsung One UI style</string>
+    <string name="oneui_today">Today</string>
+    <string name="oneui_tomorrow">Tomorrow</string>
+</resources>

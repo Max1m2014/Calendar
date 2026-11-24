@@ -268,6 +268,25 @@
                 android:resource="@xml/widget_date_info" />
         </receiver>
 
+        <receiver
+            android:name=".helpers.MyWidgetOneUiProvider"
+            android:exported="true"
+            android:icon="@drawable/img_widget_oneui_preview"
+            android:label="@string/widget_oneui">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_oneui_info" />
+        </receiver>
+
+        <service
+            android:name=".services.OneUiWidgetService"
+            android:exported="true"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
         <service
             android:name=".services.WidgetService"
             android:exported="true"

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_oneui">Kalender: Monat + Termine (One UI)</string>
+    <string name="widget_oneui_description">Monatsansicht mit anstehenden Terminen im Samsung-One-UI-Stil</string>
+    <string name="oneui_today">Heute</string>
+    <string name="oneui_tomorrow">Morgen</string>
+</resources>

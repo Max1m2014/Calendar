@@ -44,6 +44,16 @@ android {
     }
 
     signingConfigs {
+        // Fixed debug key for the One UI widget builds, so new CI builds install over old ones.
+        val oneUiDebugKeystore = rootProject.file("oneui-debug.keystore")
+        if (oneUiDebugKeystore.exists()) {
+            getByName("debug") {
+                storeFile = oneUiDebugKeystore
+                storePassword = "android"
+                keyAlias = "androiddebugkey"
+                keyPassword = "android"
+            }
+        }
         if (keystorePropertiesFile.exists()) {
             register("release") {
                 keyAlias = keystoreProperties.getProperty("keyAlias")

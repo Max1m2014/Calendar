@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_oneui">Календарь: месяц + события (One UI)</string>
+    <string name="widget_oneui_description">Сетка месяца и ближайшие события в стиле Samsung One UI</string>
+    <string name="oneui_today">Сегодня</string>
+    <string name="oneui_tomorrow">Завтра</string>
+</resources>
