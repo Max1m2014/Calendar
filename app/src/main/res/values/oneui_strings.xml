@@ -4,4 +4,6 @@
     <string name="widget_oneui_description">Month grid with upcoming events, in Samsung One UI style</string>
     <string name="oneui_today">Today</string>
     <string name="oneui_tomorrow">Tomorrow</string>
+    <string name="widget_oneui_split">Calendar mini month + agenda (One UI)</string>
+    <string name="widget_oneui_split_description">Mini month on the left, scrollable events on the right</string>
 </resources>

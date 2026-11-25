@@ -4,4 +4,6 @@
     <string name="widget_oneui_description">Сетка месяца и ближайшие события в стиле Samsung One UI</string>
     <string name="oneui_today">Сегодня</string>
     <string name="oneui_tomorrow">Завтра</string>
+    <string name="widget_oneui_split">Календарь: мини-месяц + список (One UI)</string>
+    <string name="widget_oneui_split_description">Слева мини-календарь, справа прокручиваемый список событий</string>
 </resources>

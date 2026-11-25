@@ -58,6 +58,7 @@ import org.fossify.calendar.helpers.MyWidgetDateProvider
 import org.fossify.calendar.helpers.MyWidgetListProvider
 import org.fossify.calendar.helpers.MyWidgetMonthlyProvider
 import org.fossify.calendar.helpers.MyWidgetOneUiProvider
+import org.fossify.calendar.helpers.MyWidgetOneUiSplitProvider
 import org.fossify.calendar.helpers.NEW_EVENT_START_TS
 import org.fossify.calendar.helpers.REMINDER_NOTIFICATION
 import org.fossify.calendar.helpers.REMINDER_OFF
@@ -169,6 +170,16 @@ fun Context.updateOneUiWidget() {
             sendBroadcast(this)
         }
         manager.notifyAppWidgetViewDataChanged(widgetIDs, R.id.oneui_list)
+    }
+
+    val splitIDs = manager.getAppWidgetIds(MyWidgetOneUiSplitProvider.getComponentName(applicationContext))
+    if (splitIDs.isNotEmpty()) {
+        Intent(applicationContext, MyWidgetOneUiSplitProvider::class.java).apply {
+            action = AppWidgetManager.ACTION_APPWIDGET_UPDATE
+            putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, splitIDs)
+            sendBroadcast(this)
+        }
+        manager.notifyAppWidgetViewDataChanged(splitIDs, R.id.oneui_s_list)
     }
 }
 

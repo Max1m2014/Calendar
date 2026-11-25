@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- minWidth is wide on purpose: the launcher rounds it up to all grid columns,
+     so the widget always spans the full width. Height: 2 rows and up. -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_oneui_split_description"
+    android:initialLayout="@layout/widget_oneui_split"
+    android:minWidth="320dp"
+    android:minHeight="110dp"
+    android:minResizeWidth="320dp"
+    android:minResizeHeight="110dp"
+    android:previewImage="@drawable/img_widget_oneui_split_preview"
+    android:resizeMode="vertical"
+    android:targetCellHeight="2"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />
