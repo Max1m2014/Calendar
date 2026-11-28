@@ -1,17 +1,9 @@
 pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        google()
-        mavenCentral()
-    }
+    repositories { google(); mavenCentral(); gradlePluginPortal() }
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-        maven { setUrl("https://www.jitpack.io") }
-        mavenLocal()
-    }
+    repositories { google(); mavenCentral() }
 }
+rootProject.name = "MediaWidget"
 include(":app")

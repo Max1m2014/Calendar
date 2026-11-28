@@ -1,11 +1,4 @@
 plugins {
-    alias(libs.plugins.android).apply(false)
-    alias(libs.plugins.ksp).apply(false)
-    alias(libs.plugins.detekt).apply(false)
-}
-
-tasks.register<Delete>("clean") {
-    delete {
-        rootProject.buildDir
-    }
+    id("com.android.application") version "8.10.1" apply false
+    id("org.jetbrains.kotlin.android") version "2.1.21" apply false
 }

@@ -1,5 +1,0 @@
-Changed:
-
-• Updated holiday data
-• Updated translations
-
